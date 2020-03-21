@@ -1,0 +1,9 @@
+Analyze the worst-case time complexity of the private member
+function makeEmpty(BinaryNode* & t) of the binary expression tree.
+Give the complexity in the form of Big-O. Your analysis can be informal;
+however, it must be clearly understandable by others. Name the file
+containing the complexity analysis as "analysis.txt".
+
+The Big O analysis of the makeEmpty(BinaryNode* & t) function would be O(n).
+This is because the function is recursively called by itself for every node inside the binary tree. 
+This only has one step to it for each node, so the runtime is O(n).
